@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Widget A",
+      "quantity": 10
+    },
+    {
+      "id": 2,
+      "name": "Widget B",
+      "quantity": 5
+    },
+    {
+      "id": 3,
+      "name": "Widget C",
+      "quantity": "30"
+    },
+    {
+      "name": "Widget D",
+      "quantity": "40",
+      "id": 4
+    },
+    {
+      "name": "Widget E",
+      "quantity": "12",
+      "id": 5
+    }
+  ]
+}

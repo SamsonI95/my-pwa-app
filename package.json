@@ -10,11 +10,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "mock-api": "json-server --watch db.json --port 3001 --routes routes.json --middlewares ./json-server-middleware.cjs"
   },
-
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "idb": "^8.0.3",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
@@ -29,6 +30,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "gh-pages": "^6.3.0",
     "globals": "^16.2.0",
+    "json-server": "^0.17.4",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
     "vite": "^7.0.0",
